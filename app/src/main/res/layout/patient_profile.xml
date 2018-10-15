@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="62dp"
+        android:text="Name*:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <EditText
+        android:id="@+id/editGender"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gender"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/myProfile"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="My Profile"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="99dp"
+        android:text="Gender:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="236dp"
+        android:text="Email*:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/EmergencyContact"
+        android:layout_width="181dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="313dp"
+        android:text="Emergency Contact*:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editPhone"
+        android:layout_alignLeft="@+id/name"
+        android:layout_marginLeft="0dp"
+        android:text="Phone*:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="140dp"
+        android:text="DOB*:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/emergencyPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="262dp"
+        android:text="Emergency Phone*:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="193dp"
+        android:text="Height:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="145dp"
+        android:text="Weight:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <TextView
+        android:id="@+id/doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="106dp"
+        android:text="Doctor:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/doctorType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="60dp"
+        android:text="Doctor Profession:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/medicalConditons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="16dp"
+        android:text="Medical Conditions:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/editDoctor"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/doctor"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editDOB"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dob"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:hint="00/00/0000"
+        android:inputType="numberSigned|date"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editEmail"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="82dp"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:hint="(+61) 0123456789"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editEmergencyPhone"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editEmail"
+        android:layout_marginLeft="98dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:hint="(+61) 0123456789"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/email"
+        android:layout_marginLeft="-1dp"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:hint="email@address.com"
+        android:inputType="textEmailAddress|textWebEmailAddress"
+        android:singleLine="true"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/weight"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:hint="kg"
+        android:inputType="number"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editHeight"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/height"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:hint="cm"
+        android:inputType="number"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editMedConditions"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/myProfile"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="168dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:inputType="text|textCapSentences|textMultiLine"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editEmergencyContact"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/myProfile"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="174dp"
+        android:layout_marginBottom="312dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editDoctorType"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/myProfile"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="164dp"
+        android:layout_marginBottom="47dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignTop="@+id/myProfile"
+        android:layout_alignRight="@+id/myProfile"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="saveProfile"
+        android:text="Save"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+</RelativeLayout>
